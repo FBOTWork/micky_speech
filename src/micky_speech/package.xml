@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format3>
+  <name>micky_speech</name>
+  <version>0.0.0</version>
+  <description>Pacote de voz do Micky</description>
+  <maintainer email="garcia.hoppe.gabriela@gmail.com">Gabi</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>micky_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

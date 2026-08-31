@@ -1,9 +1,2 @@
+*.vscode*
 *__pycache__*
-*.pyc
-.vscode
-*.bag
-logs/
-build/
-install/
-log/
-.venv/

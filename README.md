@@ -21,7 +21,7 @@ micky_speech/
 
 ---
 
-## Pre Requisites
+## Prerequisites
 
 - ROS2 Humble
 - Python 3.10+

@@ -58,28 +58,30 @@ source install/setup.bash
 ### Creating a New Feature
 
 1. Switch to the `release` branch (`git checkout release`)
-2. Create a feature branch (`git checkout -b feature/feature-name`)
-3. Create feature directory in `micky_speech/feature_name/`
-4. Implement the feature
-5. Update `__init__.py` imports
-6. Add launch file in `launch/`
-7. Add feature node to `setup.py`
-8. Test and verify that the feature is fully functional
-9. Commit changes (`git commit -m 'Add feature-name'`)
-10. Push the branch (`git push`)
-11. Open a Pull Request from `feature/feature-name` to `release` and add a reviewer
-12. After review and validation, merge the Pull Request into `release`
-13. Once `release` is tested and stable, merge it into `master`
+2. Update local branch with `git fetch` then `git pull`
+3. Create a feature branch (`git checkout -b feature/feature-name`)
+4. Create feature directory in `micky_speech/feature_name/`
+5. Implement the feature
+6. Update `__init__.py` imports
+7. Add launch file in `launch/`
+8. Add feature node to `setup.py`
+9. Test and verify that the feature is fully functional
+10. Commit changes (`git commit -m 'Add feature-name'`)
+11. Push the branch (`git push`)
+12. Open a Pull Request from `feature/feature-name` to `release` and add a reviewer
+13. After review and validation, merge the Pull Request into `release`
+14. Once `release` is tested and stable, merge it into `master`
 
 ### Fixing a Feature
 
 1. Switch to the `release` branch (`git checkout release`)
-2. Create a fix branch (`git checkout -b fix/broken-feature`)
-3. Fix a feature
-4. Commit changes (`git commit -m 'Fix amazing feature'`)
-5. Push to the branch (`git push`)
-6. Open a Pull Request from `fix/feature-name` to `release` and add a reviewer
-7. After review and validation, merge the Pull Request into `release`
-8. Once `release` is tested and stable, merge it into `master`
+2. Update local branch with `git fetch` then `git pull`
+3. Create a fix branch (`git checkout -b fix/broken-feature`)
+4. Fix a feature
+5. Commit changes (`git commit -m 'Fix amazing feature'`)
+6. Push to the branch (`git push`)
+7. Open a Pull Request from `fix/feature-name` to `release` and add a reviewer
+8. After review and validation, merge the Pull Request into `release`
+9. Once `release` is tested and stable, merge it into `master`
 
 ---

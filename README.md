@@ -5,7 +5,7 @@
 </div>
 
 ## Overview
-This is a group of ROS2 packages responsible for speak and listen features of [FBOT@Work](https://fbotwork.vercel.app/) industrial robot (MICKY) in RoboCup@Work league.
+This is a group of ROS2 packages responsible for speech and listening features of [FBOT@Work](https://fbotwork.vercel.app/) industrial robot (MICKY) in RoboCup@Work league.
 
 ---
 
